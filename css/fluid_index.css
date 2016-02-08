@@ -157,6 +157,12 @@ input[type=checkbox]:checked ~ #menu{
 	text-decoration: none;
 	color: #666;
 }
+.google_map {
+	padding: 20px 10px;
+}
+.tophomefooter {
+	padding-top: 20px;
+}
 
 @media screen and (max-width: 800px) {
 	
