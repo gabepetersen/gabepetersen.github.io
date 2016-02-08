@@ -11,7 +11,7 @@ html, body{
 #index_header {
   	text-align: center;
   	vertical-align: middle;
-  	background: url('http://www.bakeryandsnacks.com/var/plain_site/storage/images/publications/food-beverage-nutrition/bakeryandsnacks.com/regulation-safety/coles-freshly-baked-claims-false-rules-federal-court-australia/9101085-1-eng-GB/Coles-freshly-baked-claims-false-rules-Federal-Court-Australia.jpg') no-repeat center center fixed;
+  	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('http://www.bakeryandsnacks.com/var/plain_site/storage/images/publications/food-beverage-nutrition/bakeryandsnacks.com/regulation-safety/coles-freshly-baked-claims-false-rules-federal-court-australia/9101085-1-eng-GB/Coles-freshly-baked-claims-false-rules-Federal-Court-Australia.jpg') no-repeat center center fixed;
   	background-size: 100% 100%; // this does the stretching
   	-webkit-background-size: cover;
   	-moz-background-size: cover;
@@ -23,14 +23,18 @@ html, body{
   	font-family: 'Montserrat', sans-serif;
   	color: #FFF;
   	font-size: 72px;
-	padding: 25% 20%;
+	margin: 25% 20%;
+	border: #FFF solid 4px;
+	border-radius: 10px;
+	padding: 20px 30px;
+	
 }
 .undertext {
 	font-size: 32px;
 }
 nav {
 	position: relative;
-	margin: 20px 0;
+	margin-bottom: 20px;
 }
 .coolnav {
 	margin: 0;
@@ -148,6 +152,10 @@ input[type=checkbox]:checked ~ #menu{
 }
 .footerlink, .footerlink2 {
 	text-align: center;
+}
+.footerlink2 a, .footerlink2 {
+	text-decoration: none;
+	color: #666;
 }
 
 @media screen and (max-width: 800px) {
